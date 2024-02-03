@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+        .signup {
+
+            margin: 200px;
+            margin-top: 130px;
+            margin-left: 450px;
+            margin-right: 400px;
+            padding-top: 50px;
+            padding-left: 150px;
+            padding-bottom: 50px;
+            box-shadow: 0 0 10px black;
+            border-radius: 10px;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+
+        }
+
+        .signup_btn {
+            padding-left: 100px;
+          
+        }
+        
+    </style>
+</head>
+
+<body>
+    <form action="newaccount.php" method="post">
+        <div class="signup">
+            Account number: <input type="text" name="ac_num"> <br><br>
+            Account Name:<input type="text" name="name" ><br><br>
+            Gender:<input type="radio" name="gender" value="male">Male
+                    <input type="radio" name="gender" value="female">Female<br><br>
+            Age: <input type="text" name="age"><br><br>
+            Address: <input type="text" name="address"><br><br>
+            Mobile no: <input type="text" name="mobile_num"><br><br>
+            E-mail:&nbsp;&nbsp;&nbsp;&nbsp;<input type="email" name="email"><br><br>
+            Password:<input type="password" name="password"><br><br>
+            Confirm password: <input type="text" name="confirmpass"><br><br>
+            <div class="signup_btn">
+                <input type="submit" value="Signup"><br>
+            </div>
+            
+        </div>
+    </form>
+</body>
+
+</html>
